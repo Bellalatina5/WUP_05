@@ -1,6 +1,6 @@
 ---
 title: "Aides Drug"
-author: "Marbella"
+author: "Marbella Sanchez"
 date: "24 July 2023"
 output: html_document
 ---
@@ -15,7 +15,12 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
-A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
+A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command. 
+
+$H_0$: The vaccine (drug) is not effective in preventing aids among drug users 
+$H_A$: THe vaccine (drug) is effective in preventing aids among drug users. 
+
+Data for this study came from a clinical trial for the drug triUmpsal. 
 
 # Methods
 
