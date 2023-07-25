@@ -59,6 +59,13 @@ placebo
 
 ### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=DruggieData)
+rowPerc(table1)
+colPerc(table1)
+```
+On the table it appears that people are 3 times more likely to get aids with placebo than the people with drugs. 24 percent of the people that ended up using the vaccine was less likely to get aids than among those 75 percent with placebo.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
